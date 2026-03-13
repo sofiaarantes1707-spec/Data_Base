@@ -6,6 +6,7 @@ CREATE TABLE Clientes (
 );
 
 /*
+W3Schools:
 CREATE PROCEDURE procedure_name
   @param1 datatype,
   @param2 datatype
@@ -31,4 +32,18 @@ BEGIN
   WHERE City = @City;
 END;
 
+1 - Criar procedimentos armazenados:
+    2 - Incluir cliente
+    2 - Alterar cliente
+    3 - Selecionar cliente
+    4 - Excluir cliente
+
+2 - Criar o procedimento armazenado que recveba um numero inteiro e liste os Clientes aniversarientes do mes. (proc_Aniversarientes_Mês):
+        Resultado --> Coluna Nome e Dia
+
+3 - Criar procedimento
+    1 - Mostre a listagem
+    2 - Listar os aniversariantes e fazer aparecer todos os meses, mesmo que nao tenha nenhum aniversariante
+    3 - Quando o mês não tiver mostrar 0
 */
+
